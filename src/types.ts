@@ -9,13 +9,13 @@ export interface Car {
   year: number;
   mileage: number;
   // Japanese import features
-  engineCapacity: number; // cc
-  transmission: string; // Automatic/Manual
-  driveType: string; // 2WD/4WD/AWD
-  fuelType: string; // Petrol/Diesel/Hybrid
-  color: string;
-  steering: string; // Right/Left
-  grade: string; // Auction grade (4/4.5/5)
-  chassisNumber: string;
-  importYear: number;
+  engineCapacity?: number; // cc
+  transmission?: string; // Automatic/Manual
+  driveType?: string; // 2WD/4WD/AWD
+  fuelType?: string; // Petrol/Diesel/Hybrid
+  color?: string;
+  steering?: string; // Right/Left
+  grade?: string; // Auction grade (4/4.5/5)
+  chassisNumber?: string;
+  importYear?: number;
 }

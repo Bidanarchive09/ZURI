@@ -30,7 +30,16 @@ export const cars: Car[] = [
     category: 'SUV',
     location: 'Mombasa',
     year: 2019,
-    mileage: 62000
+    mileage: 62000,
+    engineCapacity: 3200,
+    transmission: 'Automatic',
+    driveType: '4WD',
+    fuelType: 'Diesel',
+    color: 'Black',
+    steering: 'Right',
+    grade: '4.5',
+    chassisNumber: 'Y61-0000002',
+    importYear: 2023
   },
   {
     id: 3,
@@ -41,7 +50,16 @@ export const cars: Car[] = [
     category: 'Sedan',
     location: 'Nairobi',
     year: 2021,
-    mileage: 28000
+    mileage: 28000,
+    engineCapacity: 2000,
+    transmission: 'Automatic',
+    driveType: '2WD',
+    fuelType: 'Petrol',
+    color: 'Silver',
+    steering: 'Left',
+    grade: '4.5',
+    chassisNumber: 'WDD-0000003',
+    importYear: 2023
   },
   {
     id: 4,
@@ -52,7 +70,16 @@ export const cars: Car[] = [
     category: 'Pickup',
     location: 'Eldoret',
     year: 2022,
-    mileage: 15000
+    mileage: 15000,
+    engineCapacity: 2755,
+    transmission: 'Manual',
+    driveType: '4WD',
+    fuelType: 'Diesel',
+    color: 'White',
+    steering: 'Right',
+    grade: '4',
+    chassisNumber: 'TF-0000004',
+    importYear: 2023
   },
   {
     id: 5,
@@ -63,7 +90,16 @@ export const cars: Car[] = [
     category: 'SUV',
     location: 'Nairobi',
     year: 2020,
-    mileage: 38000
+    mileage: 38000,
+    engineCapacity: 3000,
+    transmission: 'Automatic',
+    driveType: 'AWD',
+    fuelType: 'Diesel',
+    color: 'Blue',
+    steering: 'Left',
+    grade: '4.5',
+    chassisNumber: 'E71-0000005',
+    importYear: 2023
   },
   {
     id: 6,
