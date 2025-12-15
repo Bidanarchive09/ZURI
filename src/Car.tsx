@@ -37,9 +37,6 @@ const Car: React.FC<CarProps> = ({ car }) => {
             <span>Auction Grade: {car.grade || 'N/A'}</span>
             <span>Imported: {car.importYear || 'N/A'}</span>
           </div>
-          <div className="chassis-number">
-            <small>Chassis: {car.chassisNumber || 'N/A'}</small>
-          </div>
         </div>
         <p className="car-price">KES {car.price.toLocaleString()}</p>
       </div>
