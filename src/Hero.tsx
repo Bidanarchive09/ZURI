@@ -5,8 +5,8 @@ const Hero: React.FC = () => {
     <section className="hero">
       <div className="hero-overlay"></div>
       <div className="hero-content">
-        <h1>Premium Japanese Imported Cars in Kenya</h1>
-        <p>Quality vehicles from Japan auctions - Low mileage, well-maintained, with full import documentation</p>
+        <h1>Premium Imported Cars in Kenya</h1>
+        <p>Quality vehicles from global markets - New and used imported cars, low mileage, well-maintained, with full import documentation</p>
         <div className="hero-features">
           <span>🚗 Auction Grade Cars</span>
           <span>📋 Full Documentation</span>
